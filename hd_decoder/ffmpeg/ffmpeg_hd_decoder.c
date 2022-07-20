@@ -27,6 +27,12 @@
 * ---------   ---------- -----------------------------------------------
 * 2022-07-18  Apoidea   Initial creating
 ************************************************************************/
+
+/*
+example:
+./ffmpeg_hd_decoder -i rtsp://admin:Apoidea_China@10.0.1.188 -o out.yuv
+*/
+
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
